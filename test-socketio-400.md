@@ -4,17 +4,15 @@ This repo demonstrates the 400 error found in issue #2717 of the socket.io repo,
 
 To use this demonstration:
 
-1) `git clone https://github.com/richb-hanover/test-socketio-400.git`
-2) `cd *destination directory*`
-3) `npm install`
-4) `npm start` # this starts the GUI application
-5) In a separate terminal window, `API_PORT=3001 node server.js`
-6) Go to http://localhost:3000/test.html
-
-- In Chrome and Safari browser console, you should see the expected `time` messages:
+1. `git clone https://github.com/richb-hanover/test-socketio-400.git`
+2. `cd *destination directory*`
+3. `npm install`
+4. `npm start` # this starts the GUI application
+5. In a separate terminal window, `API_PORT=3001 node server.js`
+6. Go to http://localhost:3000/test.html
+7.  In Chrome and Safari browser console, you should see the expected `time` messages:
     `{text: "Time is now: Fri Oct 21 2016 00:14:55 GMT-0400 (EDT)"}`
-   
-- In Firefox console, you should see the 400 POST errors, indicating that the socket.io connection never completes.
+8. In Firefox console, you should see the 400 POST errors, indicating that the socket.io connection never completes.
 
 ## About this repo
 
